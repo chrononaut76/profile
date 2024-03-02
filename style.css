@@ -1,0 +1,97 @@
+h1, h2 {
+  color: rgb(15, 15, 115);
+  font-family: "Merriweather", Times, serif;
+  font-size: 24px;
+  line-height: 1.1;
+}
+
+a {
+  color: mediumvioletred;
+  text-decoration: none;
+}
+
+a:hover {
+  color: magenta;
+  transition-duration: 0.3s;
+}
+
+body {
+  color: rgb(55, 55, 55);
+  background-color: rgb(220, 220, 220);
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#profile_pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  background-color: rgb(230, 230, 230);
+  padding: 40px;
+  margin: 20px 0px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline i {
+  font-size: 48px;
+}
+
+.text-button {
+  color: white;
+  background-color: mediumvioletred;
+  text-decoration: none;
+  border: 0px;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0 5px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.text-button:hover {
+  color: white;
+  background-color: magenta;
+  transition-duration: 0.3s;
+}
+
+/* Media Queries */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
